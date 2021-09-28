@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.title {
+  text-align: center;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 15px;
+}
+
+table {
+  margin: 20px auto;
+  height: auto;
+  width: auto;
+}
+table td {
+  padding: 0px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid grey;
+}
+table caption {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+table .cell-active {
+  background-color: pink;
+  color: white;
+}
+table .cell-inactive {
+  background-color: white;
+}
+table .cell-inactive:hover {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.controls {
+  text-align: center;
+}
+.controls button {
+  margin: 5px;
+}
